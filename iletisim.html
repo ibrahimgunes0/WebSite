@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>websitesi</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="all-page">
+    <header>
+	<ul class="nav-bar-ul">
+    <li class="nav-bar-li"><a href=".\index.html" class="nav-bar-a">Ana sayfa</a></li>
+    <li class="nav-bar-li"><a href=".\hakkimizda.html" class="nav-bar-a">Hakkımızda</a></li>
+    <li class="nav-bar-li"><a href=".\dersler.html" class="nav-bar-a">Ders</a>
+    <ul class="nav-bar-ul">
+    <li class="nav-bar-li"><a href=".\java-giris.html" class="nav-bar-a">Java Giriş</a></li>
+    <li class="nav-bar-li"><a href=".\java-orta.html" class="nav-bar-a">Java Orta</a></li> 
+    <li class="nav-bar-li"><a href=".\java-ileri.html" class="nav-bar-a">Java İleri</a></li>      
+    </ul>
+    </li>
+    <li class="nav-bar-li"><a href=".\haberler.html" class="nav-bar-a">Haberler</a></li>
+    <li class="nav-bar-li"><a href=".\kaynak.html" class="nav-bar-a">Kaynak</a></li>
+    <li class="nav-bar-li"><a href=".\iletisim.html" class="nav-bar-a">İletişim</a></li>
+    </ul>
+    </header>
+    <br>
+    <div class="div-mid" style="width: 100%">
+        <hr>
+        <div style="background-image: url(image/co6.png); margin: auto; width: 70%; margin-top: 40px; border-radius: 5px;">
+            <form id="contact" action="#" method="get" style="width: 40%; margin: auto;">
+            <h2 style="color: black; font-family: monospace; text-align: center; padding-bottom: 20px;">İletişim Sayfası</h2>
+            <div class="form-control">
+                <input placeholder="Adınız Soyadınız" type="text" required id="user-name">
+            </div>
+            <div class="form-control">
+                <input placeholder="E-Posta Adresiniz" type="email">
+            </div>
+            <div class="form-control">
+                <input placeholder="Konu" type="text" required>
+            </div>
+            <div class="form-control">
+                <textarea placeholder="Lütfen Mesajınızı Buraya Yazın.." required></textarea>
+            </div>
+            <div class="form-control">
+                <button name="submit" type="submit" id="submit">GÖNDER</button>
+                <script>
+                var btnSelam=document.getElementById("submit");
+                btnSelam.onclick=function(){
+                    window.alert("Mesajınız Gönderilmiştir!");}
+                </script>
+                <script type="text/javascript">
+                     
+                </script>
+               
+            </div>
+        </form>
+        </div>
+    </div>
+    <div class="div-bottom" style="padding-right: 300px;">
+        <footer>
+        <p>&#169;Tüm hakları saklıdır.</p>
+        <p>İletişim: <a href="mailto:gunesibrahim.x@gmail.com" style="text-decoration: none;">Mail Gönder</a><br>Telefon: +90555789456<br>İş: 0(216)748-55-14</p><br><br>
+
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>
